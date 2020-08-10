@@ -1,6 +1,6 @@
 # mean-posts
 
-# Prepare
+## Prepare
 
 1. install node.js
 2. sudo npm install -g @angular/cli
@@ -17,8 +17,9 @@
 10. npm install —save jsonwebtoken
 11. npm install —save mutler
 
-# Setup the Mongo db connection string using Mongoose in app.js in the backend folder
+## Setup the Mongo db connection string using Mongoose in app.js in the backend folder
 
+```javascript
 mongoose
     .connect(
         "mongodb+srv://muggles:" +
@@ -31,6 +32,7 @@ mongoose
     .catch(() => {
         console.log("Connection failed!");
     });
+```
     
 # Setup configuration for Node.js application in nodemon.js:
 
