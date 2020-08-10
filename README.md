@@ -34,11 +34,13 @@ mongoose
     });
 ```
     
-# Setup configuration for Node.js application in nodemon.js:
+## Setup configuration for Node.js application in nodemon.js:
 
+``` javascript
 {
     "env": {
         "MONGO_ATLAS_PW": "",
         "JWT_KEY": "secret_this_should_be_longer"
     }
 }
+```
